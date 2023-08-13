@@ -26,10 +26,9 @@ async def upgrade(bot,update):
 	After Payment Send Screenshots Of 
         Payment To Admin @Aman_Sain"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://telegram.me/Aman_sain")], 
-        			[InlineKeyboardButton("Buy Silver Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),
-        			InlineKeyboardButton("Buy Gold Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
-				InlineKeyboardButton("Buy Diamond Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Buy Diamond Tier 💎",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")], 
+        			[InlineKeyboardButton("Buy Gold Tier 🏅",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
+        			InlineKeyboardButton("Buy Silver Tier🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -57,8 +56,7 @@ async def upgradecm(bot,message):
 	After Payment Send Screenshots Of 
         Payment To Admin @mRiderDM"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://telegram.me/Aman_sain")], 
-        			[InlineKeyboardButton("Buy Silver Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),
-        			InlineKeyboardButton("Buy Gold Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
-				InlineKeyboardButton("Buy Diamond Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")]],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Buy Diamond Tier 💎",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")], 
+        			[InlineKeyboardButton("Buy Gold Tier 🏅",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
+        			InlineKeyboardButton("Buy Silver Tier 🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
