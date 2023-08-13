@@ -28,7 +28,7 @@ async def upgrade(bot,update):
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Buy Diamond Tier 💎",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")], 
         			[InlineKeyboardButton("Buy Gold Tier 🏅",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
-        			InlineKeyboardButton("Buy Silver Tier🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Buy Silver Tier🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
@@ -54,9 +54,9 @@ async def upgradecm(bot,message):
 	Pay Using Upi I'd ```amansain295@okhdfcbank```
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @mRiderDM"""
+        Payment To Admin @Aman_Sain"""
 	keybord = InlineKeyboardMarkup([[ 
         			InlineKeyboardButton("Buy Diamond Tier 💎",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")], 
         			[InlineKeyboardButton("Buy Gold Tier 🏅",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
-        			InlineKeyboardButton("Buy Silver Tier 🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("Buy Silver Tier 🦍",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
