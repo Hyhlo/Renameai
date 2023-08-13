@@ -60,5 +60,5 @@ async def upgradecm(bot,message):
         			InlineKeyboardButton("ADMIN 🛂",url = "https://telegram.me/Aman_sain")], 
         			[InlineKeyboardButton("Buy Silver Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=66"),
         			InlineKeyboardButton("Buy Gold Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=100"),
-				InlineKeyboardButton("Buy Diamond Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")]],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]]])
+				InlineKeyboardButton("Buy Diamond Tier",url = "https://pay.upilink.in/pay/amansain295@okhdfcbank?am=206")]],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
